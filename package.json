@@ -1,0 +1,30 @@
+{
+  "name": "chetanyas",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node Backend/index.js",
+    "dev": "NODE_ENV=DEVELOPMENT nodemon Backend/index.js",
+    "prod": "NODE_ENV=PRODUCTION nodemon Backend/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CBROY62/Chetanyas.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CBROY62/Chetanyas/issues"
+  },
+  "homepage": "https://github.com/CBROY62/Chetanyas#readme",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongose": "^0.0.2-security"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
